@@ -3,6 +3,8 @@ kind: CatalogSource
 metadata:
   name: redhat-gpte-nexus
   namespace: openshift-marketplace
+  labels:
+    opentlc: true
 spec:
   displayName: Red Hat GPTE (Nexus-dev)
   image: quay.io/gpte-devops-automation/nexus-catalog:v1.0.1

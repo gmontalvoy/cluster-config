@@ -3,7 +3,9 @@ kind: CatalogSource
 metadata:
   name: redhat-gpte-nexus
   namespace: openshift-marketplace
+  labels:
+    rhpds: true
 spec:
   displayName: Red Hat GPTE (Nexus-prod)
-  image: quay.io/gpte-devops-automation/nexus-catalog:v1.0.1
+  image: quay.io/gpte-devops-automation/nexus-catalog:v1.0.0
   sourceType: grpc
