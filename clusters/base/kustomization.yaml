@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
 - olm-catalogSource.yaml
 - nexus_operator.yaml
+- oauth.yaml
 
 
   
